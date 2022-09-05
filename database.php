@@ -209,7 +209,7 @@ class database
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 // ------------------------------------------------------------------------------------------------
-$servername = gethostname(); // host DB
+$servername = 'localhost'; // host DB
 $username = "bvgkzjcegt"; //login DB
 $password = "dmCRD5EzGm"; //pass DB
 $dbname = "bvgkzjcegt";
